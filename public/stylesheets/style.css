@@ -1,0 +1,282 @@
+
+body {
+   margin: 0;
+   padding: 0;
+   background-color: goldenrod;
+   font-family: Arial, Helvetica, sans-serif;
+   display: flex;
+   flex-direction: column;
+   min-height: 100vh;
+}
+
+
+nav {
+    background-color: purple;
+    color: goldenrod;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: flex-start;
+}
+
+nav div {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.links-box {
+    margin-left: 20px;
+}
+
+.logo-box {
+    align-items: flex-end;
+}
+
+.logo-box h4 {
+    font-size: 24px;
+    margin: 15px;
+}
+
+nav a {
+    margin: 10px;
+    color: goldenrod;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+nav button {
+    margin: 10px;
+    padding: 0;
+    color: goldenrod;
+    font-weight: bold;
+    text-decoration: none;
+    background: none;
+    border: none;
+    font-size: 16px;
+}
+
+nav a:hover,
+nav a:focus,
+nav button:hover,
+nav button:focus {
+    color: gold;
+}
+
+nav h1 {
+    font-size: 58px;
+    font-family:Arial, Helvetica, sans-serif;
+    background-color: goldenrod;
+    color: purple;
+    display: inline;
+    margin: 10px 20px;
+    padding: 3px 25px;
+}
+
+section {
+    margin: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+h2 {
+    margin: 0;
+}
+
+form {
+    padding: 20px;
+    width: 300px;
+}
+
+form div {
+    padding: 20px;
+    display: flex;
+    justify-content: space-between;
+}
+
+form button {
+    background-color: goldenrod;
+    color: purple;
+    padding: 5px 15px;
+    font-weight: bold;
+    border-style: none;
+}
+
+form button:hover,
+form button:focus {
+    background-color: gold;
+}
+
+form input[type=text],
+form textarea {
+    width: 100%;
+}
+
+form textarea {
+    height: 100px;
+    resize: none;
+}
+
+.login-form,
+.signup-form {
+    background-color: purple;
+    color: goldenrod;
+    margin-top: 10px;
+    padding: 5px;
+}
+
+.new-post-form div {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: purple;
+    color: goldenrod;
+}
+
+.post {
+    display: flex;
+    flex-direction: column;
+    padding: 10px;
+    width: 400px;
+}
+
+.post .title {
+    padding-left: 10px;
+    margin: 0;
+    background-color: purple;
+    color: goldenrod;
+}
+
+.post .content,
+.post .details {
+    background-color: gold;
+    color: purple;
+    padding: 10px;
+}
+
+.post p {
+    margin: 0;
+}
+
+.post .details {
+    font-size: 10px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.comment {
+    width: 370px;
+    padding: 10px;
+    background-color: gold;
+    margin-bottom: 7px;
+}
+
+.comment p {
+    margin: 0;
+}
+
+.comment .details {
+    font-size: 10px;
+    margin-top: 7px;
+}
+
+.comment-form {
+    width: 350px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: gold;
+    margin: 15px;
+}
+
+.comment-form div {
+    padding: 10px 0 0 0;
+    width: 100%;
+}
+
+.comments-top {
+    color: purple;
+    font-size: 16px;
+}
+
+.dashboard {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center; 
+    color: purple;
+}
+
+.dashboard a {
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.dashboard a:hover,
+.dashboard a:focus {
+    color: palevioletred;
+}
+
+.dashboard h2 {
+    color: purple;
+    font-weight: bold;
+}
+
+.dashboard ol {
+    list-style: none;
+    padding-inline-start: 0;
+}
+
+.edit-link {
+    margin-left: 20px;
+    margin-top: 0;
+    font-size: 12px;
+}
+
+.edit-page {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 20px;
+}
+
+.edit-page h2 {
+    color: purple;
+}
+
+.edit-page button {
+    background-color: purple;
+    color: goldenrod;
+}
+
+.edit-page button:hover,
+.edit-page button:focus {
+    background-color:palevioletred;
+    color: gold;
+}
+
+@media screen and (max-width: 760px) {
+    nav {
+        align-items: center;
+    }
+    
+    nav div {
+        margin-left: 0;
+    }
+    
+    nav h1 {
+        font-size: 40px;
+    }
+    
+    section {
+        flex-direction: column;
+        align-items: center;
+    }
+    .logo-box {
+        flex-direction: column;
+        align-items: center;
+    }
+}
