@@ -2,7 +2,7 @@
 body {
    margin: 0;
    padding: 0;
-   background-color: goldenrod;
+   background-color: #C1DEAE;
    font-family: Arial, Helvetica, sans-serif;
    display: flex;
    flex-direction: column;
@@ -11,8 +11,8 @@ body {
 
 
 nav {
-    background-color: purple;
-    color: goldenrod;
+    background-color: #F2F5C8;
+    color: #C1DEAE;
     display: flex;
     flex-direction: column;
     justify-content: space-around;
@@ -39,7 +39,7 @@ nav div {
 
 nav a {
     margin: 10px;
-    color: goldenrod;
+    color: #C1DEAE;
     text-decoration: none;
     font-weight: bold;
 }
@@ -47,7 +47,7 @@ nav a {
 nav button {
     margin: 10px;
     padding: 0;
-    color: goldenrod;
+    color: #C1DEAE;
     font-weight: bold;
     text-decoration: none;
     background: none;
@@ -59,14 +59,14 @@ nav a:hover,
 nav a:focus,
 nav button:hover,
 nav button:focus {
-    color: gold;
+    color: #C0D8C0;
 }
 
 nav h1 {
     font-size: 58px;
     font-family:Arial, Helvetica, sans-serif;
-    background-color: goldenrod;
-    color: purple;
+    background-color: #C1DEAE;
+    color: #F2F5C8;
     display: inline;
     margin: 10px 20px;
     padding: 3px 25px;
@@ -96,8 +96,8 @@ form div {
 }
 
 form button {
-    background-color: goldenrod;
-    color: purple;
+    background-color: #C1DEAE;
+    color: #F2F5C8;
     padding: 5px 15px;
     font-weight: bold;
     border-style: none;
@@ -105,7 +105,7 @@ form button {
 
 form button:hover,
 form button:focus {
-    background-color: gold;
+    background-color: #C0D8C0;
 }
 
 form input[type=text],
@@ -120,8 +120,8 @@ form textarea {
 
 .login-form,
 .signup-form {
-    background-color: purple;
-    color: goldenrod;
+    background-color: #F2F5C8;
+    color: #C1DEAE;
     margin-top: 10px;
     padding: 5px;
 }
@@ -130,8 +130,8 @@ form textarea {
     display: flex;
     flex-direction: column;
     align-items: center;
-    background-color: purple;
-    color: goldenrod;
+    background-color: #F2F5C8;
+    color: #C1DEAE;
 }
 
 .post {
@@ -144,14 +144,14 @@ form textarea {
 .post .title {
     padding-left: 10px;
     margin: 0;
-    background-color: purple;
-    color: goldenrod;
+    background-color: #F2F5C8;
+    color: #C1DEAE;
 }
 
 .post .content,
 .post .details {
-    background-color: gold;
-    color: purple;
+    background-color: #C0D8C0;
+    color: #F2F5C8;
     padding: 10px;
 }
 
@@ -168,7 +168,7 @@ form textarea {
 .comment {
     width: 370px;
     padding: 10px;
-    background-color: gold;
+    background-color: #C0D8C0;
     margin-bottom: 7px;
 }
 
@@ -187,7 +187,7 @@ form textarea {
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    background-color: gold;
+    background-color: #C0D8C0;
     margin: 15px;
 }
 
@@ -197,7 +197,7 @@ form textarea {
 }
 
 .comments-top {
-    color: purple;
+    color: #F2F5C8;
     font-size: 16px;
 }
 
@@ -206,7 +206,7 @@ form textarea {
     flex-direction: column;
     justify-content: center;
     align-items: center; 
-    color: purple;
+    color: #F2F5C8;
 }
 
 .dashboard a {
@@ -220,7 +220,7 @@ form textarea {
 }
 
 .dashboard h2 {
-    color: purple;
+    color: #F2F5C8;
     font-weight: bold;
 }
 
@@ -244,18 +244,18 @@ form textarea {
 }
 
 .edit-page h2 {
-    color: purple;
+    color: #F2F5C8;
 }
 
 .edit-page button {
-    background-color: purple;
-    color: goldenrod;
+    background-color: #F2F5C8;
+    color: #C1DEAE;
 }
 
 .edit-page button:hover,
 .edit-page button:focus {
     background-color:palevioletred;
-    color: gold;
+    color: #C0D8C0;
 }
 
 @media screen and (max-width: 760px) {
